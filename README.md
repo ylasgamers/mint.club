@@ -38,7 +38,10 @@ MultiClaim(web3.to_checksum_address("0xyouraddr2"), "yourpvkey2")
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/vHjNpOeVSKGhQ1JQtG6HhA.png)](https://github.com/ylasgamers/mint.club/blob/72a4e89462df76337eb88cb37550aa1566d4c055/claimerc20.py#L19)
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/PAk0vdqLRDySoq_8uK4jfg.png)](https://github.com/ylasgamers/mint.club/blob/72a4e89462df76337eb88cb37550aa1566d4c055/claimerc20.py#L59)
 
-- After This, You Can Run python claimerc20.py
+- After This, You Can Run
+```
+python claimerc20.py
+```
 - You Need Know DistributionId For Claim Airdrops On [mint.club](https://mint.club/airdrops)
 - How To Find DistributionId ??? Look Below
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/BG4XUCoVRfeARsRGVhjBPw.png)](https://github.com/ylasgamers/mint.club)
