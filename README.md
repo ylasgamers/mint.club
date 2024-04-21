@@ -10,7 +10,7 @@ python -m pip install -r requirements.txt
 ```
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/gIaz5LBHSkS7esvxY4Lpqw.png)](https://github.com/ylasgamers/mint.club)
 
-- After This You Need Edit/Change RPC Url, ChainID You Can Find On chainlist.org or thirdweb.com/chainlist On claimerc20.py
+- After This You Need Edit/Change RPC Url, ChainID You Can Find On [chainlist.org](https://chainlist.org) or [thirdweb.com/chainlist](https://thirdweb.com/chainlist) On claimerc20.py
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/OEYOWMdsSdW3ntZRG3SbPw.png)](https://github.com/ylasgamers/mint.club/blob/72a4e89462df76337eb88cb37550aa1566d4c055/claimerc20.py#L8)
 
 - Next You Need Edit merkleaddr, & Add/Remove Address & Privatekey To Using Claim On claimerc20.py
@@ -37,3 +37,12 @@ MultiClaim(web3.to_checksum_address("0xyouraddr2"), "yourpvkey2")
 
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/vHjNpOeVSKGhQ1JQtG6HhA.png)](https://github.com/ylasgamers/mint.club/blob/72a4e89462df76337eb88cb37550aa1566d4c055/claimerc20.py#L19)
 [![YLAS GAMERS](https://img001.prntscr.com/file/img001/PAk0vdqLRDySoq_8uK4jfg.png)](https://github.com/ylasgamers/mint.club/blob/72a4e89462df76337eb88cb37550aa1566d4c055/claimerc20.py#L59)
+
+- After This, You Can Run python claimerc20.py
+- You Need Know DistributionId For Claim Airdrops On [mint.club](https://mint.club/airdrops)
+- How To Find DistributionId ??? Look Below
+[![YLAS GAMERS](https://img001.prntscr.com/file/img001/BG4XUCoVRfeARsRGVhjBPw.png)](https://github.com/ylasgamers/mint.club)
+[![YLAS GAMERS](https://img001.prntscr.com/file/img001/d0n7u3bwTBmjZtyJITQzfA.png)](https://github.com/ylasgamers/mint.club)
+[![YLAS GAMERS](https://img001.prntscr.com/file/img001/oAjH-4BTQWuSq2xuxCjMKg.png)](https://github.com/ylasgamers/mint.club)
+[![YLAS GAMERS](https://img001.prntscr.com/file/img001/Be21L_oQRdyTQaOJhZhr7Q.png)](https://github.com/ylasgamers/mint.club)
+- For Some Explorer Chain Different So Look Below
