@@ -33,14 +33,8 @@ contract = web3.eth.contract(address=merkleaddr, abi=abi)
 numclaim = int(input("Input distributionId : "))
 
 def MultiClaim(sender, pvkey):
-    #estimate gas limit contract
-    gas_tx = contract.functions.claim(numclaim, []).build_transaction({
-        'chainId': chainId,
-        'from': sender,
-        'gasPrice': web3.eth.gas_price, #web3.toWei(gasPrice,'gwei'),
-        'nonce': web3.eth.get_transaction_count(sender)
-    })
-    gasAmount = web3.eth.estimate_gas(gas_tx)
+    #idk some chain cannot calculate estimate gas limit, so using manual
+    gasAmount = 150000
 
     #build a transaction in a dictionary
     claim_tx = contract.functions.claim(numclaim, []).build_transaction({
